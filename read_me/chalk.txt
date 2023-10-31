@@ -1,0 +1,22 @@
+Using Inquirer and Chalk Package:
+
+changes in tsconfig.json
+"target": "es2020", 
+"module": "nodenext",  
+"moduleResolution": "NodeNext",    
+
+The latest version of Inquirer(9+) and Chalk(5+) have started using Native ECMA Script Packages.
+In most of our projects and assignment we will use these packages.
+
+Give the following command:
+
+    npm i inquirer
+    npm i --save-dev @types/inquirer
+
+    npm install chalk
+Add .gitignore file and Write your code in app.ts file.
+
+Give the following commands:
+
+    tsc
+    node app.js
